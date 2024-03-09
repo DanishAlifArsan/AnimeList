@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">AnimeList</string>
+    <string name="about">About</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="character">character</string>
+    <string name="genre">Genre</string>
+    <string name="name">Danish Alif Arsan</string>
+    <string name="email">danishalif16@gmail.com</string>
+    <string name="about_me">About Me</string>
+
+    <string-array name="data_title">
+        <item>Sousou no Frieren</item>
+        <item>Fullmetal Alchemist</item>
+        <item>Steins\;Gate</item>
+        <item>Gintama</item>
+        <item>Shingeki no Kyojin</item>
+        <item>Hunter x Hunter</item>
+        <item>Bleach</item>
+        <item>Kaguya-sama</item>
+        <item>Fruits Basket</item>
+        <item>Clannad</item>
+    </string-array>
+
+    <string-array name="data_photo">
+        <item>https://cdn.myanimelist.net/images/anime/1015/138006.jpg</item>
+        <item>https://cdn.myanimelist.net/images/anime/1208/94745.jpg</item>
+        <item>https://cdn.myanimelist.net/images/anime/1935/127974.jpg</item>
+        <item>https://cdn.myanimelist.net/images/anime/3/72078.jpg</item>
+        <item>https://cdn.myanimelist.net/images/anime/1517/100633.jpg</item>
+        <item>https://cdn.myanimelist.net/images/anime/1337/99013.jpg</item>
+        <item>https://cdn.myanimelist.net/images/anime/1908/135431.jpg</item>
+        <item>https://cdn.myanimelist.net/images/anime/1160/122627.jpg</item>
+        <item>https://cdn.myanimelist.net/images/anime/1085/114792.jpg</item>
+        <item>https://cdn.myanimelist.net/images/anime/1299/110774.jpg</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>About Frieren adventure after her hero party defeat the demon lord.</item>
+        <item>A tragedy in which the Elrich brotherhood try to revive their own mother</item>
+        <item>A mad scientist, Okabe Rintaro wants to make a time machine</item>
+        <item>Gintoki, Shinpachi, and Kagura comedic daily life</item>
+        <item>Humanity must survive againts giants called titans</item>
+        <item>Gon Freecss wants to be a Hunter in search for his father.</item>
+        <item>Adventure of soul reaper in hunting monster called hollows.</item>
+        <item>Kaguya loves Shirogane. But for some reason, she is too shy to confess</item>
+        <item>Tells about a group of teenager which own zodiac spirit</item>
+        <item>Tomoya Okazaki and Nagisa Furukawa wants to get married</item>
+    </string-array>
+
+    <string-array name="data_genre">
+        <item>Adventure, Drama, Fantasy</item>
+        <item>Action, Adventure, Drama, Fantasy</item>
+        <item>Drama, Sci-Fi, Suspense</item>
+        <item>Action, Comedy, Sci-Fi</item>
+        <item>Action, Drama, Suspense</item>
+        <item>Action, Adventure, Fantasy</item>
+        <item>Action, Adventure, Fantasy</item>
+        <item>Comedy, Romance</item>
+        <item>Drama, Romance, Supernatural</item>
+        <item>Drama, Romance, Supernatural</item>
+    </string-array>
+
+    <string-array name="data_character">
+        <item>Tanezaki, Atsumi as Frieren \nIchinose, Kana as Fern \nKobayashi, Chiaki as Stark</item>
+        <item>Park, Romi as Elric, Edward \nKugimiya, Rie as Elric, Alphonse \nMiki, Shinichiro as Mustang, Roy</item>
+        <item>Miyano, Mamoru as	Okabe, Rintarou \nImai, Asami as Makise, Kurisu \nHanazawa, Kana as Shiina, Mayuri</item>
+        <item>Sugita, Tomokazu as Sakata, Gintoki \nKugimiya, Rie as Kagura \nSakaguchi, Daisuke as Shimura, Shinpachi</item>
+        <item>Kamiya, Hiroshi as Levi \nKaji, Yuuki as Yeager, Eren \nIshikawa, Yui as Ackerman, Mikasa</item>
+        <item>Ise, Mariya as Zoldyck, Killua \nSawashiro, Miyuki as Kurapika \nHan, Megumi as Freecss, Gon</item>
+        <item>Morita, Masakazu as Kurosaki, Ichigo \nSugiyama, Noriaki as Ishida, Uryuu \nTachiki, Fumihiko as Zaraki, Kenpachi</item>
+        <item>Koga, Aoi as Shinomiya, Kaguya \nSuzuki, Ryouta as Ishigami, Yuu \nKohara, Konomi as Fujiwara, Chika</item>
+        <item>Uchida, Yuuma as Souma, Kyou \nIwami, Manaka as Honda, Tooru \nShimazaki, Nobunaga as Souma, Yuki</item>
+        <item>Nakamura, Yuuichi as Okazaki, Tomoya \nNakahara, Mai as Furukawa, Nagisa \nKoorogi, Satomi as Okazaki, Ushio</item>
+    </string-array>
+</resources>
