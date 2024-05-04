@@ -1,5 +1,6 @@
 package com.example.animelist
 
+import android.app.Activity
 import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
@@ -8,8 +9,10 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
+import androidx.core.app.ActivityOptionsCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import androidx.core.util.Pair
 
 class AnimeAdapter(private val animeList : ArrayList<Anime>) : RecyclerView.Adapter<AnimeAdapter.AnimeVH>(){
     class AnimeVH(itemView : View) : RecyclerView.ViewHolder(itemView) {
@@ -38,7 +41,16 @@ class AnimeAdapter(private val animeList : ArrayList<Anime>) : RecyclerView.Adap
         holder.btn_detail.setOnClickListener {
             val i = Intent(holder.itemView.context, DetailActivity::class.java)
             i.putExtra("anime", animeList[holder.adapterPosition])
-            holder.itemView.context.startActivity(i)
+
+            val optionsCompat : ActivityOptionsCompat =
+                ActivityOptionsCompat.makeSceneTransitionAnimation(
+                    holder.itemView.context as Activity,
+                    Pair(holder.img, "profile"),
+                    Pair(holder.tvTitle, "title"),
+                    Pair(holder.tvDesc, "description"),
+                )
+
+            holder.itemView.context.startActivity(i, optionsCompat.toBundle())
         }
     }
 }
